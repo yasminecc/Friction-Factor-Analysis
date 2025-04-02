@@ -43,17 +43,4 @@ Solves for `f` using:
 
 ---
 
-## Step 4: MATLAB Implementation
 
-### `menu.m`
-- Provides interactive menu interface
-- Handles:
-  - Input validation
-  - Friction factor calculation
-  - Plotting and saving figures
-
-### `Re.m`
-```matlab
-function [R] = Re(dens, vel, diam, visc)
-    R = (dens * vel * diam) / visc;
-end
