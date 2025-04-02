@@ -1,6 +1,3 @@
-
----
-
 ## `report.md` 
 
 ```markdown
